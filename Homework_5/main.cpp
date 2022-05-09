@@ -265,7 +265,7 @@ int main()
 
       guy.moveInDirection(elapsed, event.key.code, walls);
 
-      std::cout<< "Top: " <<guy.Collision_T(wall1)<< " Right: " << guy.Collision_R(wall1) << " Bottom: " << guy.Collision_B(wall1) <<std::endl;
+//      std::cout<< "Top: " <<guy.Collision_T(wall1)<< " Right: " << guy.Collision_R(wall1) << " Bottom: " << guy.Collision_B(wall1) << " Left: " << guy.Collision_L(wall1) <<std::endl;
 
       window.display();
      }
